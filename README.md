@@ -44,6 +44,18 @@ Number of non-survivors.
 Upload Another File:
 Use the "Upload Another File" link to restart the process with a different dataset.
 
+#Example Input and Output
+Input CSV File Example
+csv:
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
+2,1,1,"Cumings, Mrs. John Bradley",female,38,1,0,PC 17599,71.2833,C85,C
+3,1,3,"Heikkinen, Miss. Laina",female,26,0,0,STON/O2. 3101282,7.925,,S
+Output Example
+Total Passengers: 891
+Survived: 342
+Not Survived: 549
+
 #Future Enhancements
 Here are some ideas to extend the functionality of the project:
 Data Visualization:
